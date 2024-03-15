@@ -4,6 +4,4 @@ import { browserslistToSwc, defineDevConfig } from "@workleap/swc-configs";
 
 const targets = browserslistToSwc();
 
-export const swcConfig = defineDevConfig(targets, {
-    fastRefresh: false
-});
+export const swcConfig = defineDevConfig(targets);

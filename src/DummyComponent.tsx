@@ -1,3 +1,3 @@
 export function DummyComponent() {
-    return <span>Hello!!!!!!!!</span>;
+    return <span>Hello!</span>;
 }
